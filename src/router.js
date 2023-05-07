@@ -24,9 +24,10 @@ const router = createRouter({
             component: ChiSono
         },
         {
-            path: '/projectshow',
-            name: 'projectshow',
-            component: ProjectShow
+            path: '/portfolio',
+            name: 'portofolioshow',
+            component: ProjectShow,
+            props: true,
         },
     ]
 })
